@@ -1,8 +1,8 @@
 {
   "type": "micro",
-  "wake_word": "hey_steve",
-  "author": "Tater Totterson",
-  "website": "https://github.com/TaterTotterson/microWakeWord-Trainer-Nvidia-Docker.git",
+  "wake_word": "Hey Steve",
+  "author": "xy795",
+  "website": "https://github.com/xy795/microwakewords.git",
   "model": "hey_steve.tflite",
   "trained_languages": [
     "en"
@@ -13,6 +13,6 @@
     "sliding_window_size": 5,
     "feature_step_size": 10,
     "tensor_arena_size": 30000,
-    "minimum_esphome_version": "2024.7.0"
+    "minimum_esphome_version": "2025.12.0"
   }
 }
